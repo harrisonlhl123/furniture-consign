@@ -2001,6 +2001,24 @@ section {
   color: #fff;
 }
 
+/* Add the following CSS rules to center and style the image */
+.hero img {
+  display: block;
+  margin: 0 auto; /* Center the image horizontally */
+  max-width: 50%; /* Ensure the image does not exceed its container's width */
+  height: auto; /* Maintain the image's aspect ratio */
+  border-radius: 10px; /* Add a border-radius for a rounded look */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Add a subtle box-shadow for depth */
+  margin-top: 30px; /* Adjust the top margin to provide spacing */
+}
+
+/* Optional: Add responsiveness for smaller screens */
+@media (max-width: 768px) {
+  .hero img {
+    max-width: 50%; /* Adjust the maximum width for smaller screens */
+  }
+}
+
 /*--------------------------------------------------------------
 # Blog
 --------------------------------------------------------------*/
